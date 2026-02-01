@@ -318,18 +318,6 @@ Airbag control system uses a microcontroller because it needs instant response.
 - Cortex-A → Microprocessor (Linux-based systems)
 
 ---
-
-## 🔹 Fresher Tip for Embedded Career 🚀
-
-As a fresher, **focus more on microcontrollers**:
-- Learn C programming
-- Understand registers & memory
-- Practice with Arduino / STM32
-- Learn interrupts, timers, UART, SPI, I2C
-- Basics of RTOS
-
----
-
 ## 🔹 Summary
 
 - **Microcontroller = Brain + Memory + I/O**

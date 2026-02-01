@@ -81,13 +81,13 @@ ROM contains the **startup instructions** of the computer.
 
 ## Differences Between CPU, RAM, Cache, and ROM
 
-| Feature | CPU | RAM | Cache | ROM |
-|------|----|----|------|-----|
-| Purpose | Executes instructions | Temporary storage | Speeds up CPU | Booting |
-| Type | Processor | Volatile memory | High-speed memory | Non-volatile memory |
-| Speed | Very fast | Fast | Fastest | Slow |
-| Data loss on power OFF | ❌ | ✅ | ✅ | ❌ |
-| Size | — | GBs | KBs / MBs | Small |
+| Feature               | CPU                  | RAM                | Cache          | ROM |
+|------                 |----                  |----                |------          |-----|
+| Purpose               | Executes instructions| Temporary storage | Speeds up CPU   | Booting |
+| Type                  | Processor            | Volatile memory   | High-speed memory| Non-volatile memory |
+| Speed                 | Very fast            | Fast              | Fastest           | Slow |
+| Data loss on power OFF| ❌                   | ✅               | ✅               | ❌ |
+| Size | —                                      | GBs                  | KBs / MBs           | Small |
 
 ---
 
@@ -109,5 +109,84 @@ ROM contains the **startup instructions** of the computer.
 
 ---
 
-## 🧠 Memory Hierarchy (Easy to Remember)
+CPU → Cache → RAM → SSD → External Storage 
+
+
+# 🔧 BIOS and UEFI 
+
+---
+
+## 📌 Table of Contents
+- [What is BIOS?](#what-is-bios)
+- [What is UEFI?](#what-is-uefi)
+- [Boot Process](#boot-process)
+- [BIOS vs UEFI](#bios-vs-uefi)
+- [Interview One-Liners](#interview-one-liners)
+
+---
+
+## What is BIOS?
+
+### 🔹 Full Form
+**BIOS** – Basic Input/Output System
+
+### 🔹 Definition
+**BIOS** is a **firmware stored in ROM** that **initializes hardware** and **loads the operating system** when the computer is powered ON.
+
+### 🔹 Functions of BIOS
+- Performs POST (Power-On Self-Test)
+- Checks CPU, RAM, keyboard, storage
+- Finds the boot device
+- Loads OS into RAM
+- Transfers control to OS
+
+### 🔹 Simple Explanation
+BIOS is the **old-style startup program** of a computer.
+
+---
+
+## What is UEFI?
+
+### 🔹 Full Form
+**UEFI** – Unified Extensible Firmware Interface
+
+### 🔹 Definition
+**UEFI** is a **modern firmware interface** that replaces BIOS and **boots the operating system faster, more securely, and more efficiently**.
+
+### 🔹 Functions of UEFI
+- Initializes hardware
+- Uses EFI boot manager
+- Supports Secure Boot
+- Boots OS faster
+- Supports large storage devices
+
+### 🔹 Simple Explanation
+UEFI is the **modern and advanced version of BIOS**.
+
+---
+
+## Boot Process
+Power ON
+↓
+BIOS / UEFI
+↓
+Hardware Initialization
+↓
+OS loaded from SSD into RAM
+↓
+CPU starts execution
+
+## Interview One-Liners
+
+- **BIOS:** Firmware that initializes hardware and boots the OS
+- **UEFI:** Modern replacement for BIOS with faster and secure boot
+- **POST:** Hardware self-test done by BIOS/UEFI
+- **Secure Boot:** Prevents unauthorized OS during startup
+
+---
+
+## 🧠 Key Point to Remember
+> Modern computers use **UEFI**, even though many people still casually call it BIOS.
+
+---
 

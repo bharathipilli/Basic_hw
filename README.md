@@ -87,7 +87,7 @@ ROM contains the **startup instructions** of the computer.
 | Type                  | Processor            | Volatile memory   | High-speed memory| Non-volatile memory |
 | Speed                 | Very fast            | Fast              | Fastest           | Slow |
 | Data loss on power OFF| ❌                   | ✅               | ✅               | ❌ |
-| Size | —                                      | GBs                  | KBs / MBs           | Small |
+| Size | —                                      | GBs                  | KBs / MBs           | Small | 
 
 ---
 
